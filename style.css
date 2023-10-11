@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+section {
+  margin-top: 15%;
+}
+
+.hero {
+  text-align: left;
+  padding-top: 5%;
+  margin-right: 5%;
+}
+
+.menu {
+  padding: 5%;
+}
+
+img {
+  width: 100%;
+}
+
+.accordion-button:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    text-align: center;
+    text-wrap: balance;
+  }
+}
